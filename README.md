@@ -37,7 +37,8 @@
 
 - The validation loss for each image was sorted and the best and worst predicted segmaps are shown below. 
 
-
+![temp](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/segmented%20results/best.jpg)
+![temp](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/segmented%20results/worst.jpg)
 
 
 
