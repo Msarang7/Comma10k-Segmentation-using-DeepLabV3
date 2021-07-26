@@ -44,7 +44,7 @@ The first image is the easiest to classify therefore it gave the least error whi
 
 # Torchsummary
 
-- [Torchsummary](https://github.com/sksq96/pytorch-summary) is used for getting the summary of architectures. Code for this is present in [scartch.py](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/scratch.py). You can check it by uncommenting the required part.
+- [Torchsummary](https://github.com/sksq96/pytorch-summary) is used for getting the summary of architectures. Code for this is present in [scratch.py](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/scratch.py). You can check it by uncommenting the required part.
 
 
 
