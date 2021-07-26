@@ -33,7 +33,7 @@ val_loader = DataLoader(dataset = val_data, batch_size = batch_size, shuffle = T
 
 print("Data loading completed for training and validation")
 
-model.load_state_dict(torch.load('model/model_1_epoch_204.pth'))
+#model.load_state_dict(torch.load('model/model_1_epoch_204.pth'))
 
 if torch.cuda.is_available():
     device = torch.device('cuda')
