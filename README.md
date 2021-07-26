@@ -48,8 +48,8 @@ The first image is the easiest to classify therefore it gave the least error whi
 
 # Execution
 
-- "python train.py" for training the model.
-- "python evaluate.py" for visualizing the results.
+- *python train.py* for training the model.
+- *python evaluate.py* for visualizing the results.
 
 
 
