@@ -87,10 +87,7 @@ from resnet import BasicBlock
 
 ########################################################################
 
-img = plt.imread('scartch_test.png')
+#img = plt.imread('scratch_test.png')
 # print(img)
 # plt.imshow(img)
 # plt.show()
-
-for c in img:
-    print(c)
