@@ -21,7 +21,7 @@
 
 - Model was trained for 70 hours on a RTX-2060. Values of training parameters can be found in [train.py](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/train.py).
 
-- Using Categorical Cross Entropy as the metric, training loss of 0.0505 and validation loss  0.045120 was observed after 206 epochs. The model can converge more probably but due to limited computing resources loss it was trained for limited time.
+- Using Categorical Cross Entropy as the metric, validation loss of 0.0505 and training loss  0.045120 was observed after 206 epochs. The model can converge more probably but due to limited computing resources loss it was trained for limited time.
 
 
 # Visualization and weight for labels
