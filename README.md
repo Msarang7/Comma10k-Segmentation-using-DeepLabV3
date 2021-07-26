@@ -40,6 +40,13 @@
 ![temp](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/segmented%20results/best.jpg)
 ![temp](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/segmented%20results/worst.jpg)
 
+The first image is the easiest to classify therefore it gave the least error while the second image gave the most error. In second image, the front of the car is classified as part of the road and lane lines further away are completely missing. Model can be trained by augmenting the data using the Albumentations library for the frames during the night time.
+
+# Torchsummary
+
+- [Torchsummary](https://github.com/sksq96/pytorch-summary) is used for getting the summary of architectures. Code for this is present in [scartch.py](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/scratch.py). You can check it by uncommenting the required part.
+
+
 
 
 
