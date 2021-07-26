@@ -26,6 +26,8 @@
 
 # Visualization
 
+- ![temp](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/segmented%20results/eg2.png)
+
 
 
 
