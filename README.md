@@ -24,10 +24,21 @@
 - Using Categorical Cross Entropy as the metric, training loss of 0.0505 and validation loss  0.045120 was observed after 206 epochs. The model can converge more probably but due to limited computing resources loss it was trained for limited time.
 
 
-# Visualization
+# Visualization and weight for labels
 
 ![temp](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/segmented%20results/1.jpg)
 ![temp](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/segmented%20results/2.jpg)
+
+- Most of the segmentation looks good for the two randomly chosen images. For the first image, the car farthest coming from the opposite direction can be segmented better. Lane segmentation can also be improved. For the second image, the trees between the two trucks are identified as part of the truck.
+
+- The reason for this can the less amount of fragments of the image are dedicated to lane lines and moving objects as compared to the drivers car, undrivable fragments and road. To tackle this problem weighted cross entropy is used. Weights are assigned for each class in the network based on the [ENet paper](https://arxiv.org/abs/1606.02147).
+
+# Best and Worst
+
+- The validation loss for each image was sorted and the best and worst predicted segmaps are shown below. 
+
+
+
 
 
 
