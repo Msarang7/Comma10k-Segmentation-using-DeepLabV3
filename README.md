@@ -1,6 +1,6 @@
 # Comma10k-Segmentation-using-DeepLabV3
 
-- [Comma10k](https://github.com/commaai/comma10k) has been used to train [DeepLabV3](https://arxiv.org/abs/1706.05587) architecture. Motivation behing using DeepLabV3 is [atrous convolutions] with varying rates. egs. For a 3x3 filter with rate r, there will be r-1 zeros placed between every element in the filter. Rate = 1 corresponds to a regular convolution filter. This allows to capture contexts aross the image at a larger scale. The other 2 significant concepts in the paper are the encoder architecture and the ASPP pooling which can be understood from the paper.
+- [Comma10k](https://github.com/commaai/comma10k) has been used to train [DeepLabV3](https://arxiv.org/abs/1706.05587) architecture. Motivation behing using DeepLabV3 is [atrous convolutions] with varying rates. egs. For a 3x3 filter with rate r, there will be r-1 zeros placed between every element in the filter. rate = 1 corresponds to a regular convolution filter. This allows to capture contexts aross the image at a larger scale. The other 2 significant concepts in the paper are the encoder architecture and the ASPP pooling which can be understood from the paper.
 
 # Encoder (Resnet)
 
