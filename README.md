@@ -17,6 +17,22 @@
 - The output from ASPP is upsampled to h and w from h/8 adnd w/8 keeping the number of channels equivalent to the number of labels in the masks. Code for this is present in [deeplabv3.py](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/deeplabv3.py)
 
 
+# Training Details and Results
+
+- Model was trained for 70 hours on a RTX-2060. Values of training parameters can be found in [train.py](https://github.com/Msarang7/Comma10k-Segmentation-using-DeepLabV3/blob/main/train.py).
+
+- Using Categorical Cross Entropy as the metric, training loss of 0.0505 and validation loss  0.045120 was observed after 206 epochs. The model can converge more probably but due to limited computing resources loss it was trained for limited time.
+
+
+# Visualization
+
+
+
+
+
+
+
+
 
 
 
